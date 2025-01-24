@@ -1,0 +1,9 @@
+.container_showVideoGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    justify-content: space-evenly;
+    /* grid-row: 2/-1; */
+    grid-column: 2/-2;
+
+}

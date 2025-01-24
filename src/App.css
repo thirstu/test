@@ -1,0 +1,55 @@
+/* :root{
+  --nav_items_color:white
+  
+  }
+  
+  html{
+      font-size:62.2% ;
+  } */
+.channel_logo_app{
+  width: 3.52rem;  
+  height: 3.52rem;
+  margin: auto;
+  border-radius: 100%;
+  background-color: rgb(224,227,214);
+  display: flex;
+}
+.fstChar_logo_app{
+  margin: auto;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.container_pages_app{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(19,19,19);
+}
+.container2_pages_app{
+  display: grid;
+  grid-template-columns: 7.5rem calc(100% - 7.7rem);
+  grid-template-rows:6.4rem 1fr ;
+  /* width: calc(100vw - 8rem); */
+  height: calc(100vh - 5.84rem);
+  border-top: 2px solid rgb(128,128,128,0.45);
+  overflow-y: auto;
+  flex-wrap: wrap;
+}
+.video_box_app{
+  width: 33.6rem;
+  height: 27.2rem;
+  margin-bottom: 1.6rem;
+  border: 2px solid transparent;
+}
+video {
+  background-color: rgba(8,8,8,0.662);
+}
+.dot{
+  height: 4px;
+  width: 4px;
+  border-radius: 100%;
+  background-color: white;
+  margin: auto 0.8rem;
+}

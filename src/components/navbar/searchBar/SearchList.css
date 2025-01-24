@@ -1,0 +1,18 @@
+.container_searchList{
+    background-color: white;
+    width: 90.75%;
+    position: absolute;
+    top: 4.32rem;
+    height: fit-content;
+    z-index: 91;
+}
+.titleItem{
+    font-weight: 600;
+    font-size: medium;
+    margin: 0;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+.titleItem:hover{
+    background-color: rgba(166,202,234,0.516);
+}

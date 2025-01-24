@@ -1,0 +1,95 @@
+:root{
+--nav_items_color:white
+
+}
+
+html{
+    font-size:62.2% ;
+}
+
+.container_navbar{
+    border: 1px solid;
+    display: flex;
+    height: calc(5.4rem - 2px);
+    background-color: rgb(33, 33, 33);
+    justify-content: space-between;
+    align-items: center;
+}
+.burger_logo_navbar{
+    /* background-color: rgb(46, 58, 58); */
+    display: flex;
+    height: 5.1rem;
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: space-evenly;
+    margin: 0.2rem;
+    padding: 0.8rem;
+    border: 1 px solid transparent;
+    margin-left: 0.8rem;
+    margin-right: 1.2rem;
+    border-radius: 100%;
+}
+.burger p{
+    margin: 0.5px;
+    width: 1.6rem;
+    height: 0.2rem;
+    background-color: rgb(255, 244, 244);
+}
+.logo_div_navbar{
+    display: flex;
+    text-decoration: none;
+}
+.logo_title_navbar{
+    margin: auto;
+    color: white;
+    font-weight: bold;
+}
+.apps_box{
+    width: 25px;
+    margin: auto 1.2rem;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.appBox{
+    border: 1px solid var(--nav_items_color);
+    margin: 0.16rem;
+    width: 2px;
+    height: 2px;
+}
+.vid_bell_Navbar{
+color: var(--nav_items_color);
+
+}
+.auth_cont_navbar{
+    width: fit-content;
+    margin: auto 0.8rem;
+    position: relative;
+    display: flex;
+    /* background-color: aqua; */
+
+}
+.auth_btn{
+    cursor: pointer;
+    color: #3ea6ff;
+    background-color: rgb(36,36,36);
+    border: 2px solid;
+    margin: 0;
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+}
+.channel_logo_app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #ffa530;
+    border-radius: 50%;
+    border: transparent solid 0.2rem;
+}

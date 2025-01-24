@@ -1,0 +1,59 @@
+.container3_channel{
+    /* background-color:rgb(61, 61, 50) ;
+    left: 50rem ;
+    width: 30rem;
+    height: 30rem;
+    border-bottom: 3px solid rgba(1,26,96,0.692);
+    padding: 0.5rem;
+    color: whitesmoke;
+    position: relative;
+    top: 10rem; */
+
+    
+     border-bottom: 3px solid rgba(1,26,96,0.692);
+    padding: 0.5rem;
+    color: whitesmoke;
+    position: relative;
+   
+}
+.channel_logo_channel{
+    border: 10px solid rgba(49,7,219,0.66);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgba(92,135,4,0.769);
+}
+.channel_logo_channel b{
+    margin: auto;
+    font-size: 3rem;
+}
+.description_channel{
+    text-align: center;
+}
+.description_channel b{
+    font-size: 4rem;
+}
+.description_channel p{
+    font-size: large;
+}
+.uploadBtn_channel,.editBtn_channel{
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    background-color: blue;
+    padding: 0.5rem;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    color: white;
+    transition: all 1s;
+    cursor: pointer;
+}
+.uploadBtn_channel{
+    top: 4rem;
+}
+.uploadBtn_channel:hover,.editBtn_channel:hover{
+border: 2px solid;
+color: rgb(231,140,14);
+}
